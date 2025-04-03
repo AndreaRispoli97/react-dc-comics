@@ -95,7 +95,7 @@ main {
   padding-left: 100px;
   gap: 50px;
   position: relative;
-  background-size: contain;
+  background-size: cover;
 }
 
 .position-dc {
