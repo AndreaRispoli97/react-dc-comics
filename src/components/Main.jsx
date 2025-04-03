@@ -1,6 +1,6 @@
 function Main() {
     return (
-        <div>Ciao</div>
+        <div>Main</div>
     )
 }
 
