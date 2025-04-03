@@ -59,7 +59,21 @@ function Footer() {
                     </ul>
                 </nav>
             </div>
-            <div>barra social</div>
+            <div className='container-social'>
+                <nav>
+                    <button className='btn'>SIGN-UP NOW!</button>
+                </nav>
+                <nav>
+                    <ul>
+                        <h2>FOLLOW US</h2>
+                        <il><img src="/img/footer-facebook.png" alt="" /></il>
+                        <il><img src="/img/footer-twitter.png" alt="" /></il>
+                        <il><img src="/img/footer-youtube.png" alt="" /></il>
+                        <il><img src="/img/footer-pinterest.png" alt="" /></il>
+                        <il><img src="/img/footer-periscope.png" alt="" /></il>
+                    </ul>
+                </nav>
+            </div>
         </footer>
     )
 }

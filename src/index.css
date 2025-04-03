@@ -84,7 +84,8 @@ main {
   display: flex;
   padding-left: 100px;
   gap: 50px;
-  position: relative
+  position: relative;
+  background-size: contain;
 }
 
 .position-dc {
@@ -92,6 +93,7 @@ main {
   right: 150px;
   top: -35px;
   overflow: hidden;
+  width: 30%;
 }
 
 
@@ -112,4 +114,29 @@ main {
   list-style-type: none;
   height: 12px;
   margin-top: 10px;
+}
+
+.container-social {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #303030;
+}
+
+.btn {
+  background-color: #303030;
+  color: white;
+  padding: 10px;
+  border-color: #0282f9;
+}
+
+.container-social nav ul h2 {
+  color: #0282f9;
+}
+
+.container-social nav ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
