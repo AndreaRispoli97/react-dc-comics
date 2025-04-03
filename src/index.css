@@ -49,7 +49,7 @@ main {
 
 .container-icone {
   background-color: #0282f9;
-  padding: 20px;
+  padding: 50px;
   display: flex;
   justify-content: center;
 }
@@ -78,3 +78,38 @@ main {
 }
 
 /* Secondo container*/
+
+.container-liste {
+  background-image: url(/public/img/footer-bg.jpg);
+  display: flex;
+  padding-left: 100px;
+  gap: 50px;
+  position: relative
+}
+
+.position-dc {
+  position: absolute;
+  right: 150px;
+  top: -35px;
+  overflow: hidden;
+}
+
+
+
+.container-liste nav ul h3 {
+  color: white;
+  height: 20px;
+  padding: 20px 0px 30px 0px;
+}
+
+.container-liste nav ul {
+  margin-bottom: 50px;
+}
+
+.container-liste nav ul li {
+  color: white;
+  opacity: 0.5;
+  list-style-type: none;
+  height: 12px;
+  margin-top: 10px;
+}
