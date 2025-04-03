@@ -5,7 +5,7 @@
 }
 
 :root {
-  font-family: "Open Sans", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Header */
@@ -18,10 +18,20 @@ header {
 
 }
 
-ul {
+header ul {
   list-style-type: none;
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: #0282f9;
 }
 
 /* Main */
@@ -40,6 +50,31 @@ main {
 .container-icone {
   background-color: #0282f9;
   padding: 20px;
-  gap: calc(100vw / 5);
   display: flex;
+  justify-content: center;
 }
+
+.container-icone nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.container-icone nav ul li img {
+  margin-right: 8px;
+  width: 50px;
+
+}
+
+.container-icone nav ul li span {
+  color: white;
+}
+
+
+.container-icone nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+/* Secondo container*/
