@@ -34,3 +34,12 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+/* Footer */
+
+.container-icone {
+  background-color: #0282f9;
+  padding: 20px;
+  gap: calc(100vw / 5);
+  display: flex;
+}
