@@ -1,7 +1,10 @@
 import logoDc from '../assets/dc-logo-bg.png'
 
 
-function Footer() {
+function Footer(props) {
+    const dcOne = props.footerOne;
+    const dcTwo = props.footerTwo;
+    const dcThree = props.footerThree;
     return (
         <footer>
             <div className="container-icone">
@@ -19,43 +22,43 @@ function Footer() {
                 <img src={logoDc} alt="Dclogo" className='position-dc' />
                 <nav>
                     <ul>
-                        <h3>DC COMICS</h3>
-                        <li><a href="#">Characters</a></li>
-                        <li><a href="#">Comic</a></li>
-                        <li><a href="#">Movies</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">News</a></li>
-                        <h3>SHOP</h3>
-                        <li><a href="#">Shop DC</a></li>
-                        <li><a href="#">Shop DC Collectibles</a></li>
+                        <h3>{dcOne[0]}</h3>
+                        <li><a href="#">{dcOne[1]}</a></li>
+                        <li><a href="#">{dcOne[2]}</a></li>
+                        <li><a href="#">{dcOne[3]}</a></li>
+                        <li><a href="#">{dcOne[4]}</a></li>
+                        <li><a href="#">{dcOne[5]}</a></li>
+                        <li><a href="#">{dcOne[6]}</a></li>
+                        <li><a href="#">{dcOne[7]}</a></li>
+                        <h3>{dcOne[8]}</h3>
+                        <li><a href="#">{dcOne[9]}</a></li>
+                        <li><a href="#">{dcOne[10]}</a></li>
                     </ul>
                 </nav>
                 <nav>
                     <ul>
-                        <h3>DC</h3>
-                        <li><a href="#">Terms Of Use</a></li>
-                        <li><a href="#">Privacy policy(New)</a></li>
-                        <li><a href="#">Ad Choises</a></li>
-                        <li><a href="#">Adverstising</a></li>
-                        <li><a href="#">Jobs</a></li>
-                        <li><a href="#">Subscriptions</a></li>
-                        <li><a href="#">Talent Workshops</a></li>
-                        <li><a href="#">CPSC Certificates</a></li>
-                        <li><a href="#">Ratings</a></li>
-                        <li><a href="#">Shop Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <h3>{dcTwo[0]}</h3>
+                        <li><a href="#">{dcTwo[1]}</a></li>
+                        <li><a href="#">{dcTwo[2]}</a></li>
+                        <li><a href="#">{dcTwo[3]}</a></li>
+                        <li><a href="#">{dcTwo[4]}</a></li>
+                        <li><a href="#">{dcTwo[5]}</a></li>
+                        <li><a href="#">{dcTwo[6]}</a></li>
+                        <li><a href="#">{dcTwo[7]}</a></li>
+                        <li><a href="#">{dcTwo[8]}</a></li>
+                        <li><a href="#">{dcTwo[9]}</a></li>
+                        <li><a href="#">{dcTwo[10]}</a></li>
+                        <li><a href="#">{dcTwo[11]}</a></li>
                     </ul>
                 </nav>
                 <nav>
                     <ul>
-                        <h3>SITES</h3>
-                        <li><a href="#">DC</a></li>
-                        <li><a href="#">MAD Magazine</a></li>
-                        <li><a href="#">DC Kids</a></li>
-                        <li><a href="#">DC Universe</a></li>
-                        <li><a href="#">DC Power Visa</a></li>
+                        <h3>{dcThree[0]}</h3>
+                        <li><a href="#">{dcThree[1]}</a></li>
+                        <li><a href="#">{dcThree[2]}</a></li>
+                        <li><a href="#">{dcThree[3]}</a></li>
+                        <li><a href="#">{dcThree[4]}</a></li>
+                        <li><a href="#">{dcThree[5]}</a></li>
                     </ul>
                 </nav>
             </div>
