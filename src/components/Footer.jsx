@@ -69,11 +69,11 @@ function Footer(props) {
                 <nav>
                     <ul>
                         <h2>FOLLOW US</h2>
-                        <il><a href="#"><img src="/img/footer-facebook.png" alt="" /></a></il>
-                        <il><a href="#"><img src="/img/footer-twitter.png" alt="" /></a></il>
-                        <il><a href="#"><img src="/img/footer-youtube.png" alt="" /></a></il>
-                        <il><a href="#"><img src="/img/footer-pinterest.png" alt="" /></a></il>
-                        <il><a href="#"><img src="/img/footer-periscope.png" alt="" /></a></il>
+                        <li><a href="#"><img src="/img/footer-facebook.png" alt="" /></a></li>
+                        <li><a href="#"><img src="/img/footer-twitter.png" alt="" /></a></li>
+                        <li><a href="#"><img src="/img/footer-youtube.png" alt="" /></a></li>
+                        <li><a href="#"><img src="/img/footer-pinterest.png" alt="" /></a></li>
+                        <li><a href="#"><img src="/img/footer-periscope.png" alt="" /></a></li>
                     </ul>
                 </nav>
             </div>
