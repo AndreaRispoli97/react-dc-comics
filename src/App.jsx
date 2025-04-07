@@ -1,6 +1,7 @@
 import Header from "./components/Header.jsx"
 import Main from "./components/Main"
 import Footer from "./components/Footer.jsx"
+import Jumbotron from "./components/Jumbotron.jsx"
 // import Logo from "./components/Logo"
 
 const menuHeader = ["CHARACTER", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"]
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Header menuHeader={menuHeader} />
+      <Jumbotron />
       <Main />
       <Footer footerOne={menuFooterOne} footerTwo={menuFooterTwo} footerThree={menuFooterThree} />
 

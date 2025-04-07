@@ -57,6 +57,11 @@ main {
   align-items: center;
 }
 
+.img-jumbo {
+  height: 400px;
+  width: 100%;
+}
+
 /* Footer */
 
 .container-icone {
