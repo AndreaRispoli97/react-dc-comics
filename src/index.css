@@ -51,16 +51,63 @@ header a:hover {
 main {
   background-color: black;
   color: white;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+  position: relative;
+
 }
 
-.img-jumbo {
+.jumbotron {
+  background-image: url(../public/img/jumbotron.jpg);
   height: 400px;
-  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+
+.container-card {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: center;
+}
+
+
+.prod-card {
+  width: calc(100% / 7);
+
+}
+
+.card-img {
+  height: 190px;
+  width: 190px;
+
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn-card {
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 50px;
+}
+
+
+
+.btn-current {
+  color: white;
+  font-weight: bold;
+  background-color: #0282f9;
+  padding: 10px 50px;
+  position: absolute;
+  top: -19px;
+  left: 142px;
+}
+
 
 /* Footer */
 
@@ -107,10 +154,10 @@ main {
 
 .position-dc {
   position: absolute;
-  right: 150px;
-  top: -35px;
+  right: 290px;
+  top: -120px;
   overflow: hidden;
-  width: 30%;
+  width: 560px;
 }
 
 
