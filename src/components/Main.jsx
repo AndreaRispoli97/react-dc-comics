@@ -1,11 +1,12 @@
 import comics from "../data/comics"
+import Product from "./productCard"
 
-function Main() {
-    console.log(comics);
+
+function Main(props) {
+
     return (
         <main>
-            {/* <div><figure><img src={jumbotron} alt="jumbotron"></img></figure></div> */}
-            <div>--content is here--</div>
+            <Product product={comics} />
         </main>
     )
 }
